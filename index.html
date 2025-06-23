@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lixoteca - Lixeira Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="gallery">
+      <img id="main-image" src="imagem.png" alt="Lixeira principal" />
+      <div class="thumbnails">
+        <img src="imagem.png" alt="Miniatura 1" onclick="changeImage(this.src)" />
+        <img src="imagem2.png" alt="Miniatura 2" onclick="changeImage(this.src)" />
+        <img src="imagem3.png" alt="Miniatura 3" onclick="changeImage(this.src)" />
+      </div>
+    </div>
+
+    <div class="details">
+      <h1>Lixoteca</h1>
+      <p class="price">R$ 749,00</p>
+
+      <div class="voltagem">
+        <span>Voltagem:</span>
+        <button onclick="selectVoltagem(this)">110V</button>
+        <button onclick="selectVoltagem(this)">220V</button>
+      </div>
+
+      <h2>Especificações Técnicas</h2>
+      <ul>
+        <li>Sensores de identificação de resíduos</li>
+        <li>Compartimentos automáticos para papel, plástico e orgânicos</li>
+        <li>Conexão com app (versão avançada)</li>
+        <li>Design compacto e silencioso</li>
+        <li>Ideal para residências e pequenos comércios</li>
+      </ul>
+
+      <button class="comprar" onclick="comprar()">Comprar Agora</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

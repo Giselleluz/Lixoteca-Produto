@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #0d47a1, #81d4fa);
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+background-color: #f0f4f8;
+  border-radius: 8px;
+  gap: 40px;
+}
+
+.gallery {
+  flex: 1;
+}
+
+#main-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.thumbnails {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.thumbnails img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.thumbnails img:hover {
+  border-color: #0d47a1;
+}
+
+.details {
+  flex: 1;
+}
+
+.price {
+  font-size: 28px;
+  color: #0d47a1;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.voltagem button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.voltagem button.active {
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+}
+
+.comprar {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #0d47a1 ;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600  ;
+}
