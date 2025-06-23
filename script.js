@@ -12,3 +12,4 @@ function selectVoltagem(button) {
 function comprar() {
   alert("Obrigado por escolher a Lixoteca! Em breve você receberá um link de compra.");
 }
+
